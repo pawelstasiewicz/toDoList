@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ToDoList</title>
+
+		<link rel="stylesheet" href="./src/style/style.css" />
+		<script src="./src/js/index.js" defer></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="main">
+				<h1>Task List</h1>
+				<input class="taskInputValue" type="text" />
+				<button class="addTaskBtn">Add task</button>
+				<p class="errorInfo">Write task:</p>
+				<div class="taskArea">
+					<ul>
+						<li class="task">
+							<p>Zjeść śniadanie</p>
+							<div class="liBtn">
+								<button class="editBtn">Edit</button>
+								<button class="deleteBtn">Delete</button>
+							</div>
+						</li>
+						<li class="task">
+							<p>Zjeść śniadanie</p>
+							<div class="liBtn">
+								<button class="editBtn">Edit</button>
+								<button class="deleteBtn">Delete</button>
+							</div>
+						</li>
+						<li class="task">
+							<p>Zjeść śniadanie</p>
+							<div class="liBtn">
+								<button class="editBtn">Edit</button>
+								<button class="deleteBtn">Delete</button>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="editArea active">
+				<h1>Edit Task</h1>
+				<input type="text" />
+				<button class="editBtn">Edit</button>
+			</div>
+		</div>
+	</body>
+</html>
